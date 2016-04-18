@@ -83,6 +83,25 @@ Java Servlet and JavaServer Pages technologies.</description>
       </mahout-conf>
     </alternatives>
   </mahout>
+  <apex>
+    <metadata>
+      <summary>A set of Java libraries for scalable machine learning.</summary>
+      <description>Apache Apex is a free, open source implementation for unified stream and batch processing.
+.
+Apache Apex includes following key features:
+ * Event processing guarantees
+ * In-memory performance and scalability
+ * Fault tolerance and state management
+ * Native rolling and tumbling window support
+ * Hadoop-native YARN and HDFS implementation
+      </description>
+      <url>http://apex.incubator.apache.org</url>
+    </metadata>
+    <deps>
+      <hadoop-client/>
+      <bigtop-utils/>
+    </deps>
+  </apex>
   <giraph>
     <metadata>
       <summary>Giraph is a BSP inspired graph processing platform that runs on Hadoop</summary>
